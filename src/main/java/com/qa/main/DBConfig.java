@@ -11,4 +11,10 @@ public final class DBConfig {
 
 }
 
-//DB_URL = jdbc:mysql://instance_public_ip/name_of_database
+/*
+ * DB_URL = jdbc:mysql://instance_public_ip/name_of_database
+ * 
+ * user defaults to root when creating instance
+ * 
+ * pass is set upon GCP instance creation - change as required
+ */
